@@ -117,7 +117,7 @@ p{
 }
 .button_group {
     display: grid;
-   /*grid-template-columns: repeat(auto_fit, minmax(14rem, 1fr));*/
+   grid-template-columns: repeat(auto_fit, minmax(14rem, 1fr));
     justify-items: stretch;
     align-items: initial;
 }
