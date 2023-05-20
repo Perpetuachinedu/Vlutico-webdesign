@@ -156,6 +156,50 @@ header{
   gap: 1.5rem;
 }
 
+/*Todo: Styling for text grid container*/
+.container {
+  width: 100%;
+  height: 150px;
+  background-color: black;
+  color: white;
+  padding: 20px 20px 10px 50px;
+  font-size: 1.3rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.row {
+  padding-top: 15px;
+}
+.column {
+  float: left;
+  width: 33.33%;
+}
+/*Todo: Styling for the text and image section*/
+.text {
+  font-size: 20px;
+  margin: 10rem;
+  line-height: 3rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+}
+h4 {
+  padding-top: 2rem;
+}
+img {
+  float: right;
+  width: 50%;
+  max-height: max-content;
+} 
+.cta-btn-footer {
+  margin: 2px 400px 100px 600px;
+  align-items: center;
+  padding: 1rem 2rem;
+  border: none;
+  outline: none;
+  background-color:#6FC247 ;
+  color: #fff;
+  font-weight: 600;
+  border-radius: .5rem;
+  cursor: pointer;
+}
 
 /* Todo: Media Queries */
 @media (max-width: 73em){
@@ -181,22 +225,6 @@ header{
   
 }
 
-/*Styling for text grid container*/
-.container {
-  width: 100%;
-  height: 150px;
-  background-color: black;
-  color: white;
-  padding: 20px 20px 10px 50px;
-  font-size: 1.3rem;
-}
-.row {
-  padding-top: 15px;
-}
-.column {
-  float: left;
-  width: 33.33%;
-}
 @media screen and (max-width: 600px) {
   .column {
       width: 100%;
@@ -204,5 +232,11 @@ header{
   .container {
      height: 257px;
      line-height: 20px;
+  }
+  .text {
+    width: 100%;
+  }
+  .cta-btn-footer {
+    margin: 0 100px 200px 200px;
   }
 }
